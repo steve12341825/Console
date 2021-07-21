@@ -56,17 +56,3 @@ module.exports = class <event file name> extends BaseEvent {
   }
 }
 ```
-
-## Note: 
- #### >_  Dont delete the `slappey.json` package. Without it slappey wont work
-
- #### >_ The `bot: true` in config.js will fun the bot and `bot: false` will turn off the bot. The same thing applies to `website`
-
- #### >_ do `npm run-script build` in the terminal and:
-
- ##### Generate
-
- ##### Command
-
- ##### Command name
- ##### Catagory name
