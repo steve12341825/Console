@@ -1,0 +1,66 @@
+{
+  "Botname": "Console",
+  "version": "5.9.1",
+  "description": "A discord bot with 50 commands and 10 categories.",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js",
+    "build": "slappey"
+  },
+  "keywords": [
+    "discord.js",
+    "node.js",
+    "discordbot",
+    "slappey"
+  ],
+  "author": [
+    "Steve12341825#3510",
+    "Creeperz653#6530",
+    "GameWatch21#2121"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@quick.eco/sqlite": "^1.0.4",
+    "body-parser": "^1.19.0",
+    "buid": "^0.3.1",
+    "canvas": "^2.8.0",
+    "common-tags": "^1.8.0",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.3.2",
+    "disco-oauth": "^5.1.0",
+    "discord-image-generation": "^1.4.9",
+    "discord-reaction-role": "^2.1.0",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "easy-json-database": "^1.5.0",
+    "ejs": "~2.6.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "form-data": "^4.0.0",
+    "got": "^11.8.2",
+    "http-errors": "^1.8.0",
+    "minecraft-server-util": "^3.5.2",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "novelcovid": "^3.0.2",
+    "parse-ms": "^3.0.0",
+    "passport": "^0.4.1",
+    "passport-discord": "^0.1.4",
+    "quick.eco": "^6.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "simple-youtube-api": "^5.2.1",
+    "slash-commands": "^1.4.0",
+    "triggered": "^0.1.0",
+    "ytdl-core": "^4.8.3",
+    "ytdl-core-discord": "^1.3.1",
+    "ytpl": "^2.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "npm": "^7.19.1",
+    "slappey": "^3.0.0"
+  }
+}
