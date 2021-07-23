@@ -10,7 +10,11 @@ we are developing a `leveling` system.
 
 ## Installation
 
-go to `Secrets (Environment variables)` and add `BOT_TOKEN` as its key and [your bots token](https://discord.com/developers/applications) as its value.
+create a `.env` file and save the bots token
+
+```
+CLIENT_TOKEN="Your bots token"
+```
 
 ## Adding Commands
 
