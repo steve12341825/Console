@@ -18,13 +18,8 @@ CLIENT_TOKEN="Your bots token"
 
 ## Adding Commands
 
-### Category
-
-to add a command create a [category](#src/commands/help/HelpCommand.js) or use and existing
-
 ### Command
 
-To create a command first: Go to the decided `Category`
 ```
 const BaseCommand = require('../../utils/structures/BaseCommand');
 
@@ -41,13 +36,8 @@ module.exports = class <command file name> extends BaseCommand {
 
 ## Adding Events
 
-### Category
-
-to add a event create a category
-
 ### Event
 
-To create a command first: Go to the decided `Category`
 ```
 const BaseEvent = require('../../utils/structures/BaseEvent');
 
