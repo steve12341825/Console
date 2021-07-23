@@ -18,7 +18,7 @@ CLIENT_TOKEN="Your bots token"
 
 ## Adding Commands
 
-### Command
+### Commands
 
 ```
 const BaseCommand = require('../../utils/structures/BaseCommand');
@@ -36,7 +36,7 @@ module.exports = class <command file name> extends BaseCommand {
 
 ## Adding Events
 
-### Event
+### Events
 
 ```
 const BaseEvent = require('../../utils/structures/BaseEvent');
